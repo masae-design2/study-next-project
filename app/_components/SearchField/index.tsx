@@ -32,7 +32,7 @@ function SearchFieldComponent() {
         <input
           type="text"
           name="q"
-          defaultValue={searchParams.get("q") ?? undifined}
+          defaultValue={searchParams.get("q") ?? undefined}
           placeholder="キーワードを入力"
           className={styles.searchInput}
         />
